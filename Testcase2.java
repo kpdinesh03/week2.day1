@@ -24,6 +24,9 @@ public class Testcase2 {
 		driver.findElement(By.linkText("CRM/SFA")).click();
 		driver.findElement(By.linkText("Contacts")).click();
 		driver.findElement(By.linkText("Find Contacts")).click();
+		driver.findElement(By.linkText("Email")).click();
+		driver.findElement(By.name("emailAddress")).sendKeys("babu@testleaf.com");
+
 	}
 
 }
